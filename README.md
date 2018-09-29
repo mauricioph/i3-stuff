@@ -13,11 +13,12 @@ GPU: Mesa DRI Intel(R) Sandybridge Mobile
 RAM: 1.4GB / 16GB
 </pre>
 <h2>Preparing</h2>
-git clone https://github.com/mauricioph/i3-stuff/i3-stuff.git
-Do it in the $Home/.config the folder should be at $HOME/.config/i3
+git clone https://github.com/mauricioph/i3-stuff/i3-stuff.git <br />
+Do it in the $Home/.config the folder should be at $HOME/.config/i3 <br />
 
-Then get the systemd service file copied to the system folder.
-cp $HOME/.config/i3/systemd/wakelock.service /etc/systemd/system/
-
+<p>Then get the systemd service file copied to the system folder.<br />
+cp $HOME/.config/i3/systemd/wakelock.service /etc/systemd/system/</p>
+[code]
 sudo systemctl enable wakelock.service
+[/code]
 
