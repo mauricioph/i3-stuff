@@ -12,3 +12,4 @@ CPU: Intel Core i5-2415M CPU @ 2.9GHz
 GPU: Mesa DRI Intel(R) Sandybridge Mobile 
 RAM: 1.4GB / 16GB
 
+<div id=new>I am testing this...</div>
