@@ -18,7 +18,8 @@ Do it in the $Home/.config the folder should be at $HOME/.config/i3 <br />
 
 <p>Then get the systemd service file copied to the system folder.<br />
 cp $HOME/.config/i3/systemd/wakelock.service /etc/systemd/system/</p>
-[code]
+
+<div class="code">
 sudo systemctl enable wakelock.service
-[/code]
+</div>
 
