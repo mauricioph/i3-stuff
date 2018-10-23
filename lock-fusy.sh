@@ -1,4 +1,5 @@
 #!/bin/sh -e
+# MauricioPH is the person behind this awesome piece of script.
 
 # i3 folder
 i3folder="$HOME/.config/i3/"
@@ -15,6 +16,5 @@ convert ${i3folder}/screen_locked.png  "$icon" -gravity center -composite -font 
 
 # Lock screen displaying this image.
 i3lock -i ${i3folder}/screen_locked.png
-
 # Turn the screen off after a delay.
 sleep 120; pgrep i3lock && xset dpms force off
