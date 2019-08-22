@@ -166,11 +166,9 @@ colors {
 	}
 }
 
-exec cp /home/mauricio/.i3/ad995828636f468ff57d5d38e5aed655.png /home/mauricio/.config/i3/i3locker.png &
 exec xautolock -time 5 -locker "/home/mauricio/.config/i3/lock-fusy.sh" -secure -detectsleep &
 exec_always compton --config /home/mauricio/.compton.conf &
 exec --no-startup-id gwallpaper &
-# exec --no-startup-id /opt/Telegram/Telegram stayintray >> /dev/null 2>&1 &
 exec --no-startup-id battery-level &
 exec --no-startup-id mpd &
 exec xrandr --dpi 96 &
@@ -180,4 +178,3 @@ exec --no-startup-id redshift &
 exec --no-startup-id nm-applet &
 exec conky &
 exec /home/mauricio/.config/conky/start_conky.sh &
-exec i3-nagbar -t warning -m "Start edexui?" -B Yes 'edexui' -B No 'echo no' &
